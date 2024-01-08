@@ -18,10 +18,13 @@ let i = 0
 while(listaSpesa.length > i){
 
     let risultato = listaSpesa[i];
-    
-    lista += `<li>${risultato} </li>`
-    i++
+   
+    lista += `<li>${listaSpesa[i]} </li>`;
+
+    i++;
 }
-console.log(i);
 
 lista += '</ul>'
+
+//stampo su pagina
+results.innerHTML = lista;
