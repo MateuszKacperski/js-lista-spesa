@@ -22,6 +22,7 @@ while(listaSpesa.length > i){
     i++;
 }
 
+//chiudo lista
 lista += '</ul>'
 
 //stampo su pagina
