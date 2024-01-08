@@ -16,8 +16,6 @@ let i = 0
 
 // cilclo while
 while(listaSpesa.length > i){
-
-    let risultato = listaSpesa[i];
    
     lista += `<li>${listaSpesa[i]} </li>`;
 
